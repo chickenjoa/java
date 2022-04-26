@@ -5,7 +5,7 @@ public class Main {
 		int sum  =1;
 		for(int i =2; i <=number; i++)
 		{
-			sum += i;
+			sum *= i;
 		}
 		return sum;
 	}
